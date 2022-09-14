@@ -10,9 +10,11 @@ void setup() {
 
 void loop() {
   
-while (i<1024) {
-    digitalWrite(5,i);
+while (i<256) {
+    analogWrite(5,i);
     i=i+1;
+    Serial.println(i);
+    
     delay(10);
 }
 i=0;
