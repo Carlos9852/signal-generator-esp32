@@ -15,7 +15,7 @@ while (i<256) {
     i=i+1;
     Serial.println(i);
     
-    delay(10);
+    delay(1);
 }
 i=0;
 
